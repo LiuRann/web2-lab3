@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>用户注册</title>
+	<meta charset="utf-8"/>
+	<script src="jquery-3.2.1.slim.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(function name(){
+	      	$("#name").focus(function(){ 
+				var txt_value =  $(this).val();   
+				if(txt_value==this.defaultValue){  
+					// 如果符合条件，则清空文本框内容
+	                $(this).val("");              
+				} 
+		  });
+		  $("#name").blur(function(){		  
+		  	    var txt_value =  $(this).val();   
+				if(txt_value==""){
+					// 如果符合条件，则设置内容
+	                $(this).val('用户名不能为空');
+				} 
+		  });
+		  $("#name").focus(function(){ 
+				var txt_value =  $(this).val();   
+				if(txt_value=='用户名不能为空'){  
+					// 如果符合条件，则清空文本框内容
+	                $(this).val("");              
+				} 
+		  });
+
+        });
+        $(function pas(){
+		  $("#password").focus(function(){
+				var txt_value =  $(this).val();
+				if(txt_value==this.defaultValue){
+	                $(this).val("");
+				} 
+		  });
+		  $("#password").blur(function(){
+		  	    var txt_value =  $(this).val();
+				if(txt_value==""){
+	                $(this).val('密码不能为空');
+				} 
+		    });
+		  $("#password").focus(function(){ 
+				var txt_value =  $(this).val();   
+				if(txt_value=='密码不能为空'){  
+					// 如果符合条件，则清空文本框内容
+	                $(this).val("");              
+				} 
+		  });
+		});
+		$(function apas(){
+		  $("#apassword").focus(function(){
+				var txt_value =  $(this).val();
+				if(txt_value==this.defaultValue){
+	                $(this).val("");
+				} 
+		  });
+		  $("#apassword").blur(function(){
+		  	    var txt_value =  $(this).val();
+				if(txt_value!=$('#password').val()){
+	                $(this).val('与设置密码不一致');
+				} 
+		    });
+		  $("#apassword").focus(function(){ 
+				var txt_value =  $(this).val();   
+				if(txt_value=='与设置密码不一致'){  
+					// 如果符合条件，则清空文本框内容
+	                $(this).val("");              
+				} 
+		  });
+	    });
+	    name();
+	    pas();
+	    apas();
+	</script>
+</head>
+<body>
+    用户名：<input type="text" id="name" value="请输入用户名"/>   
+    <br/><br/>
+	密码：<input type="text" id="password" value="请输入密码"/>  
+	<br/><br/>
+	确认密码：<input type="text" id="apassword" value="请确认密码"/>  
+	<br/><br/>
+	<input type="submit" id="sub" value="注册"/>
+</body>
+</html>
