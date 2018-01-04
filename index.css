@@ -1,0 +1,263 @@
+body{
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat;
+}
+#header{
+	background-image: url(images/banner.jpg);
+	background-position: top center;
+	height: 200px;
+}
+#logo{
+	padding-top: 50px;
+	padding-left: 200px;
+
+}
+#banner{
+	width: 1240px;
+	height: 198px;
+	position: top;
+}
+
+            * {
+				margin: 0;
+				padding: 0;					
+				font-family: arial, 宋体, serif;
+				font-size: 12px;
+			}					
+			#nav {
+				margin-top: 20px;
+				margin-left: 30px;
+				line-height: 24px; 
+				list-style-type: none; 
+			}					
+			#nav a:link {
+				display: block; 
+				width: 80px;
+				text-align: center;
+				text-decoration: none;
+				color: #F0F0F0;
+			}					
+			#nav a:hover {
+				color: #F0F0F0;
+				text-decoration: none;
+				font-weight: bold;
+				background:#999;
+			}
+			#nav a:visited {
+				color:#F0F0F0;
+			}	/* 已被访问的链接 */
+
+			#nav li {
+				float: left; 
+				width: 160px; 
+				background: #663300;
+			}					
+			#nav li ul {
+				line-height: 27px;
+				list-style-type: none;
+				text-align: left;						
+				width: 180px; 						
+				display: none;
+			}
+			#nav li ul li{
+				float: left; 
+				width: 100px;						
+			}
+			#nav li ul a:link {
+				display: block; 
+				width: 75px;
+				text-align: left;
+				padding-left: 24px;
+				color: #F0F0F0;
+			}							
+			#nav li ul a:hover {
+				color: #F3F3F3;
+				text-decoration: none;
+				font-weight: normal;
+				background: #C00;
+			}
+			#nav li.sfhover ul {						
+				display: block;
+				position: absolute;
+			}	
+.nav_text{
+	font-family: 幼圆;
+	font-weight: bolder;
+	margin-top: 5px;
+    float: left;
+}
+.nav_text1{
+	font-family: 幼圆;
+	font-weight: bolder;
+    margin-top: 5px;
+    float: left;
+}
+a.nav_text:link{
+	margin-left: 50px;
+	text-decoration-line: none;
+	color: white;
+	font-size: 12px;
+}
+a.nav_text:visited{
+	margin-left: 50px;
+	color: white;
+	text-decoration-line: none;
+	font-size: 12px;
+}
+a.nav_text:hover{
+	margin-left: 50px;
+	color: black;
+	text-decoration-line: none;
+	font-size: 12px;
+}
+a.nav_text1:link{
+	margin-left: 170px;
+	text-decoration-line: none;
+	color: white;
+	font-size: 12px;
+}
+a.nav_text1:visited{
+	margin-left: 170px;
+	color: white;
+	text-decoration-line: none;
+	font-size: 12px;
+}
+a.nav_text1:hover{
+	margin-left: 170px;
+	color: black;
+	text-decoration-line: none;
+	font-size: 12px;
+}
+#search{
+	width: 200px;
+	margin-top: 1px;
+	margin-left: 0px;
+	float: left;
+}
+#content_top{
+	margin-top: 80px;
+	margin-left: 60px;
+	width:1100px;
+	height: 450px;
+}
+#content_top_left{
+	width: 540px;
+	height: 450px;
+	float: left;
+}
+#picScroll{
+	white-space:nowrap;
+	overflow:hidden;
+	width:540px;
+}
+#content_top_right{
+	margin-left: 16px;
+	width: 540px;
+	height: 450px;
+	float: left;
+}
+
+a.img_four:link{
+	font-family: 幼圆;
+	font-size: 24px;
+	font-weight: bold;
+    color: #663300;
+	text-decoration-line: none;
+}
+a.img_four:visited{
+	color: #663300;
+	text-decoration-line: none;
+}
+a.img_four:hover{
+	color: #CC3333;
+	text-decoration-line: none;
+}
+.content1{
+	font-size: 19px;
+}
+a.content1:link{
+    color: #663300;
+	text-decoration-line: none;
+}
+a.content1:visited{
+	color: #663300;
+	text-decoration-line: none;
+}
+a.content1:hover{
+	color: #996666;
+	text-decoration-line: none;
+}
+.content_top_right_ul{
+	float: left;
+	margin-left: 30px;
+}
+#mingshi{
+	width: 1102px;
+	height: 40px;
+	margin-left: 60px;
+	background-color: #996633;
+	color: white;
+	font-weight: bold;
+	font-family: 幼圆;
+	font-size: 30px;
+	margin-top: 30px;
+	text-align: center;
+}
+#content_foot{
+	margin-top: 20px;
+	margin-left: 60px;
+	width:1100px;
+	height: 455px;
+}
+.people1{
+	border: 1px solid black;
+	background-image: url(images/liran.jpg);
+	width: 225px;
+	height: 374px;
+	font-size: 14px;
+	font-family: 宋体;
+	font-weight: bolder;
+	color: #996633;
+	float: left;
+}
+.people2{
+	border: 1px solid black;
+	background-image: url(images/liuyu.jpg);
+	width: 225px;
+	height: 374px;
+	font-size: 14px;
+	font-family: 宋体;
+	font-weight: bolder;
+	color: #996633;
+	margin-left: 64px;
+	float: left;
+}
+.people3{
+	border: 1px solid black;
+	background-image: url(images/tongdeshang.jpg);
+	width: 225px;
+	height: 374px;
+	font-size: 14px;
+	font-family: 宋体;
+	font-weight: bolder;
+	color: #996633;
+	margin-left: 64px;
+	float: left;
+}
+.people4{
+	border: 1px solid black;
+	background-image: url(images/xiaoting.jpg);
+	width: 225px;
+	height: 374px;
+	font-size: 14px;
+	font-family: 宋体;
+	font-weight: bolder;
+	color: #996633;
+	float: right;
+}
+#foot{
+	background-position: bottom center;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}
